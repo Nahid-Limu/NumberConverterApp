@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@android:color/holo_blue_bright">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/mainShow"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark"
+            android:id="@+id/textView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="!!.........................!!"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:id="@+id/textView3" />
+
+        <Button
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:text="Decimal To All"
+            android:textSize="25sp"
+            android:gravity="center"
+
+            android:background="#da011d"
+
+            android:id="@+id/decimal_btn"
+            android:layout_marginTop="20sp"/>
+
+        <Button
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:text="Binary To All"
+            android:textSize="25sp"
+            android:gravity="center"
+
+
+            android:background="@android:color/holo_purple"
+            android:id="@+id/bainary_btn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"/>
+
+        <Button
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:text="Octal To All"
+            android:textSize="25sp"
+            android:gravity="center"
+
+            android:background="@android:color/holo_green_light"
+
+
+            android:id="@+id/octal_btn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"/>
+
+        <Button
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:text="Hexa To All"
+            android:textSize="25sp"
+            android:gravity="center"
+
+
+            android:background="#fadd00"
+
+            android:id="@+id/hexa_btn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"/>
+
+    </LinearLayout>
+</RelativeLayout>

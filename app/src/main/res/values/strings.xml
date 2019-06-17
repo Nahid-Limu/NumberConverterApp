@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Number Converter</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="mainShow">Number Converter</string>
+
+    <string name="button_D">Decimal</string>
+    <string name="button_B">Binary</string>
+    <string name="buttan_O">Octal</string>
+    <string name="buttan_H">Hexa</string>
+    <string name="title_activity_theird">TheirdActivity</string>
+    <string name="title_activity_splash_">Splash_Activity</string>
+    <string name="title_activity_four_">Four_Activity</string>
+    <string name="title_activity_five_">Five_Activity</string>
+</resources>
